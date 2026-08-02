@@ -42,7 +42,9 @@
         "joes.png"
       ]
     ],
-    "map": "JFK Airport to Residence Inn Times Square via Jamaica"
+    "map": "JFK Airport to Residence Inn Times Square via Jamaica",
+    "heroPosition": "center 48%",
+    "cardPosition": "center 45%"
   },
   {
     "date": "Do 06.08.",
@@ -92,7 +94,9 @@
         "joes.png"
       ]
     ],
-    "map": "Times Square Bryant Park New York Public Library St Patrick's Cathedral Rockefeller Center"
+    "map": "Times Square Bryant Park New York Public Library St Patrick's Cathedral Rockefeller Center",
+    "heroPosition": "center 50%",
+    "cardPosition": "center 48%"
   },
   {
     "date": "Fr 07.08.",
@@ -147,7 +151,9 @@
         "timeout.png"
       ]
     ],
-    "map": "The Battery Liberty Island Ellis Island Wall Street Brooklyn Bridge DUMBO Manhattan Bridge Chinatown"
+    "map": "The Battery Liberty Island Ellis Island Wall Street Brooklyn Bridge DUMBO Manhattan Bridge Chinatown",
+    "heroPosition": "center 24%",
+    "cardPosition": "center 22%"
   },
   {
     "date": "Sa 08.08.",
@@ -207,7 +213,9 @@
         "grays.png"
       ]
     ],
-    "map": "Gapstow Bridge The Mall Bethesda Terrace Bow Bridge Strawberry Fields Empire State Building"
+    "map": "Gapstow Bridge The Mall Bethesda Terrace Bow Bridge Strawberry Fields Empire State Building",
+    "heroPosition": "center 48%",
+    "cardPosition": "center 45%"
   },
   {
     "date": "So 09.08.",
@@ -252,7 +260,9 @@
         "pauls.png"
       ]
     ],
-    "map": "Coney Island Stillwell Avenue Coney Island Beach Luna Park Riegelmann Boardwalk"
+    "map": "Coney Island Stillwell Avenue Coney Island Beach Luna Park Riegelmann Boardwalk",
+    "heroPosition": "center 55%",
+    "cardPosition": "center 50%"
   },
   {
     "date": "Mo 10.08.",
@@ -312,7 +322,9 @@
         "panini.png"
       ]
     ],
-    "map": "High Line Chelsea Market Little Island New York Stock Exchange Vessel Edge Hudson Yards"
+    "map": "High Line Chelsea Market Little Island New York Stock Exchange Vessel Edge Hudson Yards",
+    "heroPosition": "center 46%",
+    "cardPosition": "center 43%"
   },
   {
     "date": "Di 11.08.",
@@ -367,7 +379,9 @@
         "cookie.jpeg"
       ]
     ],
-    "map": "Roosevelt Island Tram Grand Central Terminal Intrepid Museum Pier 83 Circle Line"
+    "map": "Roosevelt Island Tram Grand Central Terminal Intrepid Museum Pier 83 Circle Line",
+    "heroPosition": "center 50%",
+    "cardPosition": "center 48%"
   },
   {
     "date": "Mi 12.08.",
@@ -422,6 +436,8 @@
         "joes.png"
       ]
     ],
-    "map": "Residence Inn Times Square Madame Tussauds New York JFK Airport"
+    "map": "Residence Inn Times Square Madame Tussauds New York JFK Airport",
+    "heroPosition": "center 48%",
+    "cardPosition": "center 45%"
   }
 ]
