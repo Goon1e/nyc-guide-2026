@@ -1,0 +1,1 @@
+GitHub Pages: Repository anlegen, Inhalt dieses Ordners hochladen, Settings > Pages > Deploy from branch. Die Seite enthält noindex/nofollow und robots.txt. Keine Buchungsnummern oder Ausweisdaten veröffentlichen.
