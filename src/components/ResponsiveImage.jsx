@@ -3,12 +3,12 @@ const imagePath = (name, width) => {
   return `${import.meta.env.BASE_URL}images/${baseName}-${width}.webp`
 }
 
-export default function ResponsiveImage({ alt, className, name, sizes, style }) {
+export default function ResponsiveImage({ alt, className, loading = 'lazy', name, sizes, style }) {
   return <img
     alt={alt}
     className={className}
     decoding="async"
-    loading="lazy"
+    loading={loading}
     sizes={sizes}
     src={imagePath(name, 960)}
     srcSet={[480, 960, 1600].map((width) => `${imagePath(name, width)} ${width}w`).join(', ')}
