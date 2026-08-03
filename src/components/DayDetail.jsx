@@ -17,7 +17,7 @@ export default function DayDetail({day,index,total,onChange,favorites,setFavorit
   <main className="detail-main">
    <div className="day-hero"><ResponsiveImage name={day.hero} sizes="(max-width: 960px) 100vw, 66vw" style={{objectPosition:day.heroPosition}} alt={day.title}/><div/><div className="day-title"><small>TAG {index+1} · {day.date}</small><h2>{day.title}</h2><p>{day.sub}</p></div>
    <button className={`favorite ${fav?'active':''}`} onClick={()=>setFavorites(fav?favorites.filter(x=>x!==day.id):[...favorites,day.id])} aria-label={fav?'Aus Favoriten entfernen':'Zu Favoriten hinzufügen'} aria-pressed={fav}><Heart fill={fav?'currentColor':'none'}/></button></div>
-   <InfoBadges day={day}/><Timeline items={day.timeline} done={done} onToggle={toggle}/>
+   <InfoBadges day={day}/><Timeline items={day.timeline} points={day.coordinates} done={done} onToggle={toggle}/>
   </main>
   <aside className="detail-side">
    <section className="side-card map-card"><div className="section-head"><h3><Map/> Tageskarte</h3><a href={google} target="_blank" rel="noreferrer">Route öffnen</a></div><Suspense fallback={<div className="map-loading">Karte wird geladen …</div>}><RouteMap points={day.coordinates}/></Suspense></section>
