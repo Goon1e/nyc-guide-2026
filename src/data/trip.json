@@ -56,8 +56,8 @@
         "label": "Weiterfahrt"
       },
       {
-        "lat": 40.7528,
-        "lng": -73.9772,
+        "lat": 40.7528306,
+        "lng": -73.9858447,
         "label": "Hotel"
       },
       {
@@ -145,8 +145,8 @@
         "label": "Ankunft Rockefeller Center"
       },
       {
-        "lat": 40.759,
-        "lng": -73.9845,
+        "lat": 40.7587,
+        "lng": -73.9787,
         "label": "Top of the Rock"
       }
     ],
@@ -346,6 +346,11 @@
         "lat": 40.7554,
         "lng": -73.9867,
         "label": "Zum Empire State Building"
+      },
+      {
+        "lat": 40.748443,
+        "lng": -73.985683,
+        "label": "Empire State Building"
       }
     ],
     "heroPosition": "50% 46%",
@@ -513,6 +518,11 @@
         "lat": 40.7541,
         "lng": -74.0007,
         "label": "Vessel"
+      },
+      {
+        "lat": 40.756,
+        "lng": -74.0015,
+        "label": "Edge"
       }
     ],
     "heroPosition": "50% 45%",
@@ -665,8 +675,8 @@
     "id": 8,
     "coordinates": [
       {
-        "lat": 40.7548,
-        "lng": -73.9849,
+        "lat": 40.7528306,
+        "lng": -73.9858447,
         "label": "Auschecken"
       },
       {
@@ -675,14 +685,24 @@
         "label": "Madame Tussauds optional"
       },
       {
+        "lat": 40.7548,
+        "lng": -73.9849,
+        "label": "Midtown-Spaziergang"
+      },
+      {
+        "lat": 40.7528306,
+        "lng": -73.9858447,
+        "label": "Koffer abholen"
+      },
+      {
         "lat": 40.7027,
         "lng": -73.789,
-        "label": "Midtown-Spaziergang"
+        "label": "Zum JFK"
       },
       {
         "lat": 40.6413,
         "lng": -73.7781,
-        "label": "Koffer abholen"
+        "label": "Abflug KL0646"
       }
     ],
     "heroPosition": "50% 48%",
