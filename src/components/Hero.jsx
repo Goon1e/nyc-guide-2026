@@ -5,7 +5,7 @@ import { useWeather } from '../hooks/useWeather'
 import ResponsiveImage from './ResponsiveImage'
 function Countdown(){
   const [text,setText]=useState('')
-  useEffect(()=>{ const tick=()=>{const ms=new Date('2026-08-05T09:05:00+02:00')-new Date();setText(ms>0?`${Math.ceil(ms/86400000)} Tage bis zum Abflug`:'New York 2026')};tick();const id=setInterval(tick,3600000);return()=>clearInterval(id)},[])
+  useEffect(()=>{ const tick=()=>{const ms=new Date('2026-08-05T09:05:00+02:00')-new Date();if(ms<=0){setText('Willkommen in New York');return}const hours=Math.floor(ms/3600000),days=Math.floor(hours/24),remainingHours=hours%24;setText(days?`${days} Tage · ${remainingHours} Std. bis Abflug`:`${remainingHours} Std. bis Abflug`)};tick();const id=setInterval(tick,60000);return()=>clearInterval(id)},[])
   return text
 }
 export default function Hero(){
