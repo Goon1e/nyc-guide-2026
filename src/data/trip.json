@@ -1,0 +1,694 @@
+[
+  {
+    "date": "Mi 05.08.",
+    "title": "Anreise",
+    "sub": "JFK · Midtown",
+    "hero": "jfk.png",
+    "reserve": "Keine feste Attraktion",
+    "transit": "AirTrain + E",
+    "walk": "leicht",
+    "highlight": "Erster Times-Square-Abend",
+    "timeline": [
+      [
+        "14:35",
+        "Landung JFK",
+        "Einreise, Gepäck, AirTrain"
+      ],
+      [
+        "ca. 16:15",
+        "Weiterfahrt",
+        "AirTrain nach Jamaica, dann E Richtung Manhattan"
+      ],
+      [
+        "ca. 17:45",
+        "Hotel",
+        "Residence Inn, 1033 6th Ave"
+      ],
+      [
+        "abends",
+        "Times Square",
+        "TKTS Red Steps, Bryant Park optional"
+      ]
+    ],
+    "food": [
+      [
+        "Junior's Cheesecake",
+        "1515 Broadway",
+        "juniors.png"
+      ],
+      [
+        "Joe's Pizza",
+        "1435 Broadway",
+        "joes.png"
+      ]
+    ],
+    "map": "JFK Airport to Residence Inn Times Square via Jamaica",
+    "id": 1,
+    "coordinates": [
+      {
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "label": "Landung JFK"
+      },
+      {
+        "lat": 40.7027,
+        "lng": -73.789,
+        "label": "Weiterfahrt"
+      },
+      {
+        "lat": 40.7528,
+        "lng": -73.9772,
+        "label": "Hotel"
+      },
+      {
+        "lat": 40.7548,
+        "lng": -73.9849,
+        "label": "Times Square"
+      }
+    ],
+    "heroPosition": "50% 48%",
+    "categories": [
+      "flight",
+      "hotel",
+      "walk"
+    ]
+  },
+  {
+    "date": "Do 06.08.",
+    "title": "Midtown & Top of the Rock",
+    "sub": "Big Bus · Fifth Avenue · Rockefeller Center",
+    "hero": "midtown_walk.png",
+    "reserve": "18:30 Top of the Rock",
+    "transit": "Big Bus + zu Fuß",
+    "walk": "ca. 8–10 km",
+    "highlight": "Sonnenuntergang über Manhattan",
+    "timeline": [
+      [
+        "09:30",
+        "Big Bus – Uptown/Midtown",
+        "Überblickstour ab Times Square"
+      ],
+      [
+        "12:30",
+        "Bryant Park / Library",
+        "Pause und kurzer Besuch"
+      ],
+      [
+        "14:00",
+        "5th Avenue",
+        "St. Patrick's Cathedral, Rockefeller Center"
+      ],
+      [
+        "18:10",
+        "Ankunft Rockefeller Center",
+        "Puffer vor dem Einlass"
+      ],
+      [
+        "18:30",
+        "Top of the Rock",
+        "Reserviert; Aufenthalt ohne festes Endzeitfenster"
+      ]
+    ],
+    "food": [
+      [
+        "Shake Shack Bryant Park",
+        "Nahe Bryant Park",
+        "shake.png"
+      ],
+      [
+        "Joe's Pizza",
+        "1435 Broadway",
+        "joes.png"
+      ]
+    ],
+    "map": "Times Square Bryant Park New York Public Library St Patrick's Cathedral Rockefeller Center",
+    "id": 2,
+    "coordinates": [
+      {
+        "lat": 40.758,
+        "lng": -73.9855,
+        "label": "Big Bus – Uptown/Midtown"
+      },
+      {
+        "lat": 40.7536,
+        "lng": -73.9832,
+        "label": "Bryant Park / Library"
+      },
+      {
+        "lat": 40.7532,
+        "lng": -73.9822,
+        "label": "5th Avenue"
+      },
+      {
+        "lat": 40.7587,
+        "lng": -73.9787,
+        "label": "Ankunft Rockefeller Center"
+      },
+      {
+        "lat": 40.759,
+        "lng": -73.9845,
+        "label": "Top of the Rock"
+      }
+    ],
+    "heroPosition": "50% 48%",
+    "categories": [
+      "bus",
+      "park",
+      "landmark"
+    ]
+  },
+  {
+    "date": "Fr 07.08.",
+    "title": "Liberty Island & Brooklyn",
+    "sub": "Ellis Island · Big Bus Downtown · Brückenrunde",
+    "hero": "liberty.jpeg",
+    "reserve": "Liberty/Ellis: Buchungsfenster prüfen",
+    "transit": "Subway + Fähre + Big Bus",
+    "walk": "ca. 10–13 km",
+    "highlight": "DUMBO und zwei Brücken",
+    "timeline": [
+      [
+        "08:15",
+        "The Battery",
+        "Sicherheitskontrolle und Fähre"
+      ],
+      [
+        "09:00",
+        "Liberty Island",
+        "Außenrundgang und Statue Museum"
+      ],
+      [
+        "11:00",
+        "Ellis Island",
+        "Immigration Museum"
+      ],
+      [
+        "13:30",
+        "Downtown / Big Bus",
+        "Wall Street, 9/11 Memorial außen"
+      ],
+      [
+        "15:30",
+        "Brooklyn Bridge → DUMBO",
+        "Washington Street, Pebble Beach"
+      ],
+      [
+        "18:00",
+        "Manhattan Bridge zurück",
+        "Ende in Chinatown / Little Italy"
+      ]
+    ],
+    "food": [
+      [
+        "Mei Lai Wah",
+        "64 Bayard St",
+        "chinatown.png"
+      ],
+      [
+        "Time Out Market",
+        "55 Water St, Brooklyn",
+        "timeout.png"
+      ]
+    ],
+    "map": "The Battery Liberty Island Ellis Island Wall Street Brooklyn Bridge DUMBO Manhattan Bridge Chinatown",
+    "id": 3,
+    "coordinates": [
+      {
+        "lat": 40.7033,
+        "lng": -74.017,
+        "label": "The Battery"
+      },
+      {
+        "lat": 40.6892,
+        "lng": -74.0445,
+        "label": "Liberty Island"
+      },
+      {
+        "lat": 40.6995,
+        "lng": -74.0396,
+        "label": "Ellis Island"
+      },
+      {
+        "lat": 40.7069,
+        "lng": -74.0113,
+        "label": "Downtown / Big Bus"
+      },
+      {
+        "lat": 40.7061,
+        "lng": -73.9969,
+        "label": "Brooklyn Bridge → DUMBO"
+      },
+      {
+        "lat": 40.7033,
+        "lng": -73.9888,
+        "label": "Manhattan Bridge zurück"
+      },
+      {
+        "lat": 40.7145,
+        "lng": -73.9985,
+        "label": "Manhattan Bridge zurück"
+      }
+    ],
+    "heroPosition": "50% 22%",
+    "categories": [
+      "ferry",
+      "museum",
+      "bridge"
+    ]
+  },
+  {
+    "date": "Sa 08.08.",
+    "title": "Central Park & Empire State Building",
+    "sub": "Gapstow · Bethesda · Bow Bridge",
+    "hero": "centralpark.png",
+    "reserve": "20:00 Empire State Building",
+    "transit": "Subway + zu Fuß",
+    "walk": "ca. 9–12 km",
+    "highlight": "Gapstow Bridge & ESB bei Nacht",
+    "timeline": [
+      [
+        "10:00",
+        "Central Park Südost",
+        "Start 59th St / 5th Ave"
+      ],
+      [
+        "10:20",
+        "Gapstow Bridge",
+        "Kevin-Fotospot"
+      ],
+      [
+        "11:00",
+        "The Mall",
+        "Weiter Richtung Bethesda Terrace"
+      ],
+      [
+        "12:00",
+        "Bethesda Terrace",
+        "Danach Bow Bridge und Cherry Hill"
+      ],
+      [
+        "14:00",
+        "Strawberry Fields optional",
+        "Danach Rückweg / Hotelpause"
+      ],
+      [
+        "19:30",
+        "Zum Empire State Building",
+        "20 W 34th St"
+      ],
+      [
+        "20:00",
+        "Empire State Building",
+        "Reserviert; Nachtpanorama"
+      ]
+    ],
+    "food": [
+      [
+        "Ess-a-Bagel",
+        "831 3rd Ave",
+        "bagel.png"
+      ],
+      [
+        "Gray's Papaya",
+        "2090 Broadway",
+        "grays.png"
+      ]
+    ],
+    "map": "Gapstow Bridge The Mall Bethesda Terrace Bow Bridge Strawberry Fields Empire State Building",
+    "id": 4,
+    "coordinates": [
+      {
+        "lat": 40.765,
+        "lng": -73.9745,
+        "label": "Central Park Südost"
+      },
+      {
+        "lat": 40.7669,
+        "lng": -73.9763,
+        "label": "Gapstow Bridge"
+      },
+      {
+        "lat": 40.7723,
+        "lng": -73.9715,
+        "label": "The Mall"
+      },
+      {
+        "lat": 40.7795,
+        "lng": -73.969,
+        "label": "Bethesda Terrace"
+      },
+      {
+        "lat": 40.775,
+        "lng": -73.9766,
+        "label": "Strawberry Fields optional"
+      },
+      {
+        "lat": 40.7554,
+        "lng": -73.9867,
+        "label": "Zum Empire State Building"
+      }
+    ],
+    "heroPosition": "50% 46%",
+    "categories": [
+      "park",
+      "photo",
+      "view"
+    ]
+  },
+  {
+    "date": "So 09.08.",
+    "title": "Coney Island",
+    "sub": "Beach · Boardwalk · Luna Park optional",
+    "hero": "coney.png",
+    "reserve": "Keine Reservierung",
+    "transit": "Subway",
+    "walk": "frei",
+    "highlight": "Atlantik und Boardwalk",
+    "timeline": [
+      [
+        "10:00",
+        "Subway nach Coney Island",
+        "Ca. 50–60 Minuten"
+      ],
+      [
+        "11:15",
+        "Beach & Boardwalk",
+        "Baden, Fotos, Spaziergang"
+      ],
+      [
+        "13:00",
+        "Luna Park optional",
+        "Je nach Lust und Wetter"
+      ],
+      [
+        "15:30+",
+        "Rückfahrt offen",
+        "Abends Times Square oder Bryant Park"
+      ]
+    ],
+    "food": [
+      [
+        "Nathan's Famous",
+        "1310 Surf Ave",
+        "nathans.png"
+      ],
+      [
+        "Paul's Daughter",
+        "1001 Boardwalk W",
+        "pauls.png"
+      ]
+    ],
+    "map": "Coney Island Stillwell Avenue Coney Island Beach Luna Park Riegelmann Boardwalk",
+    "id": 5,
+    "coordinates": [
+      {
+        "lat": 40.5773,
+        "lng": -73.981,
+        "label": "Subway nach Coney Island"
+      },
+      {
+        "lat": 40.5745,
+        "lng": -73.9857,
+        "label": "Beach & Boardwalk"
+      },
+      {
+        "lat": 40.5753,
+        "lng": -73.9835,
+        "label": "Luna Park optional"
+      }
+    ],
+    "heroPosition": "50% 52%",
+    "categories": [
+      "beach",
+      "fun"
+    ]
+  },
+  {
+    "date": "Mo 10.08.",
+    "title": "High Line, Financial District & Edge",
+    "sub": "Chelsea Market · Vessel · Hudson Yards",
+    "hero": "vessel.png",
+    "reserve": "17:00 Edge",
+    "transit": "Subway + zu Fuß",
+    "walk": "ca. 10–12 km",
+    "highlight": "Vessel & Edge",
+    "timeline": [
+      [
+        "09:30",
+        "High Line",
+        "Start Gansevoort Street"
+      ],
+      [
+        "11:30",
+        "Chelsea Market",
+        "Lunch / Los Tacos No. 1"
+      ],
+      [
+        "12:30",
+        "Little Island optional",
+        "Kurzer Abstecher"
+      ],
+      [
+        "13:15",
+        "Financial District",
+        "NYSE, Fearless Girl, Charging Bull"
+      ],
+      [
+        "15:30",
+        "Zurück Hudson Yards",
+        "Subway und kurzer Puffer"
+      ],
+      [
+        "16:10",
+        "Vessel",
+        "Fotostopp auf der Plaza"
+      ],
+      [
+        "17:00",
+        "Edge",
+        "Reserviert"
+      ]
+    ],
+    "food": [
+      [
+        "Los Tacos No. 1",
+        "Chelsea Market, 75 9th Ave",
+        "tacos.png"
+      ],
+      [
+        "Pisillo Italian Panini",
+        "97 Nassau St",
+        "panini.png"
+      ]
+    ],
+    "map": "High Line Chelsea Market Little Island New York Stock Exchange Vessel Edge Hudson Yards",
+    "id": 6,
+    "coordinates": [
+      {
+        "lat": 40.7395,
+        "lng": -74.0089,
+        "label": "High Line"
+      },
+      {
+        "lat": 40.7425,
+        "lng": -74.006,
+        "label": "Chelsea Market"
+      },
+      {
+        "lat": 40.7414,
+        "lng": -74.0104,
+        "label": "Little Island optional"
+      },
+      {
+        "lat": 40.7069,
+        "lng": -74.0113,
+        "label": "Financial District"
+      },
+      {
+        "lat": 40.7538,
+        "lng": -74.0022,
+        "label": "Zurück Hudson Yards"
+      },
+      {
+        "lat": 40.7541,
+        "lng": -74.0007,
+        "label": "Vessel"
+      }
+    ],
+    "heroPosition": "50% 45%",
+    "categories": [
+      "walk",
+      "food",
+      "finance",
+      "view"
+    ]
+  },
+  {
+    "date": "Di 11.08.",
+    "title": "Roosevelt Island & Circle Line",
+    "sub": "Grand Central · Intrepid optional · Best of NYC Cruise",
+    "hero": "circleline.png",
+    "reserve": "Circle Line: Verfügbarkeit prüfen",
+    "transit": "OMNY + Subway + zu Fuß",
+    "walk": "ca. 7–9 km",
+    "highlight": "Skyline vom Wasser",
+    "timeline": [
+      [
+        "09:30",
+        "Roosevelt Island Tram",
+        "Hin- und Rückfahrt oder kurzer Inselspaziergang"
+      ],
+      [
+        "11:30",
+        "Grand Central Terminal",
+        "Haupthalle und Fotostopp"
+      ],
+      [
+        "12:30",
+        "Intrepid optional",
+        "Nur sinnvoll mit 2–3 Stunden Zeit"
+      ],
+      [
+        "14:15",
+        "Pier 83",
+        "Boarding frühzeitig organisieren"
+      ],
+      [
+        "15:00",
+        "Best of NYC Cruise",
+        "Ca. 2,5 Stunden"
+      ],
+      [
+        "abends",
+        "Abschlussabend",
+        "Times Square / Bryant Park"
+      ]
+    ],
+    "food": [
+      [
+        "Andrews NYC Diner",
+        "463 7th Ave",
+        "andrews.png"
+      ],
+      [
+        "Levain Bakery",
+        "Midtown-Filiale",
+        "cookie.jpeg"
+      ]
+    ],
+    "map": "Roosevelt Island Tram Grand Central Terminal Intrepid Museum Pier 83 Circle Line",
+    "id": 7,
+    "coordinates": [
+      {
+        "lat": 40.7614,
+        "lng": -73.9497,
+        "label": "Roosevelt Island Tram"
+      },
+      {
+        "lat": 40.7527,
+        "lng": -73.9772,
+        "label": "Grand Central Terminal"
+      },
+      {
+        "lat": 40.7645,
+        "lng": -73.9996,
+        "label": "Intrepid optional"
+      },
+      {
+        "lat": 40.7681,
+        "lng": -73.9827,
+        "label": "Pier 83"
+      }
+    ],
+    "heroPosition": "50% 50%",
+    "categories": [
+      "tram",
+      "station",
+      "museum",
+      "cruise"
+    ]
+  },
+  {
+    "date": "Mi 12.08.",
+    "title": "Heimreise",
+    "sub": "Midtown · JFK",
+    "hero": "jfk.png",
+    "reserve": "19:10 Abflug JFK",
+    "transit": "E + AirTrain",
+    "walk": "leicht",
+    "highlight": "Letzter Midtown-Spaziergang",
+    "timeline": [
+      [
+        "vormittags",
+        "Auschecken",
+        "Koffer möglichst im Hotel deponieren"
+      ],
+      [
+        "11:00",
+        "Madame Tussauds optional",
+        "Ohne Pass, nur falls gewünscht"
+      ],
+      [
+        "13:00",
+        "Midtown-Spaziergang",
+        "Souvenirs / Lunch"
+      ],
+      [
+        "15:15",
+        "Koffer abholen",
+        "Puffer einplanen"
+      ],
+      [
+        "15:30",
+        "Zum JFK",
+        "E nach Jamaica + AirTrain"
+      ],
+      [
+        "19:10",
+        "Abflug KL0646",
+        "Via Amsterdam nach Berlin"
+      ]
+    ],
+    "food": [
+      [
+        "Schmackary's Cookies",
+        "362 W 45th St",
+        "cookie.jpeg"
+      ],
+      [
+        "Joe's Pizza",
+        "1435 Broadway",
+        "joes.png"
+      ]
+    ],
+    "map": "Residence Inn Times Square Madame Tussauds New York JFK Airport",
+    "id": 8,
+    "coordinates": [
+      {
+        "lat": 40.7548,
+        "lng": -73.9849,
+        "label": "Auschecken"
+      },
+      {
+        "lat": 40.758,
+        "lng": -73.9855,
+        "label": "Madame Tussauds optional"
+      },
+      {
+        "lat": 40.7027,
+        "lng": -73.789,
+        "label": "Midtown-Spaziergang"
+      },
+      {
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "label": "Koffer abholen"
+      }
+    ],
+    "heroPosition": "50% 48%",
+    "categories": [
+      "hotel",
+      "flight"
+    ]
+  }
+]

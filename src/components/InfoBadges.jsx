@@ -1,0 +1,3 @@
+import { CalendarCheck, Footprints, Sparkles, TrainFront } from 'lucide-react'
+const data=(d)=>[[CalendarCheck,'Reservierung',d.reserve],[TrainFront,'Verkehr',d.transit],[Footprints,'Laufstrecke',d.walk],[Sparkles,'Highlight',d.highlight]]
+export default function InfoBadges({day}){return <div className="info-badges">{data(day).map(([Icon,t,v])=><div key={t}><Icon/><span><b>{t}</b>{v}</span></div>)}</div>}
