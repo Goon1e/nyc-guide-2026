@@ -12,14 +12,7 @@ export default function DayDetail({day,index,total,onChange,favorites,setFavorit
  const [done,setDone]=useLocalStorage(`nyc-done-${day.id}`,[])
  const toggle=i=>setDone(done.includes(i)?done.filter(x=>x!==i):[...done,i])
  const fav=favorites.includes(day.id)
- const routePoints=day.coordinates
- const routeParams=new URLSearchParams({
-  api:'1',
-  origin:`${routePoints[0].lat},${routePoints[0].lng}`,
-  destination:`${routePoints.at(-1).lat},${routePoints.at(-1).lng}`
- })
- if(routePoints.length>2)routeParams.set('waypoints',routePoints.slice(1,-1).map(p=>`${p.lat},${p.lng}`).join('|'))
- const google=`https://www.google.com/maps/dir/?${routeParams}`
+ const google=`https://www.google.com/maps/dir/${day.coordinates.map(point=>`${point.lat},${point.lng}`).join('/')}`
  return <AnimatePresence mode="wait"><motion.section key={day.id} className="detail-layout" initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} exit={{opacity:0,y:-10}}>
   <main className="detail-main">
    <div className="day-hero"><ResponsiveImage name={day.hero} sizes="(max-width: 960px) 100vw, 66vw" style={{objectPosition:day.heroPosition}} alt={day.title}/><div/><div className="day-title"><small>TAG {index+1} · {day.date}</small><h2>{day.title}</h2><p>{day.sub}</p></div>
